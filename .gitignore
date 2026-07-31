@@ -1,0 +1,22 @@
+@"
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+"@ | Set-Content .gitignore
